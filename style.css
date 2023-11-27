@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+a, span {
+    display: inline-block;
+}
+.all {
+    padding: 0 10px;
+}
+.top {
+    text-align: center;
+    background-image: url(chef.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 130px;
+    padding: 25px 0;
+}
+.h1 {
+    font-size: 50px;
+}
+.center {
+    padding: 0 30px;
+    border-top: 1px solid #DADADA;
+    border-bottom: 1px solid #DADADA;
+    text-align: center;
+    margin: 0 85px;
+}
+.a1 {
+    margin: 10px 30px;
+    color: black;
+}
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 80px;
+    align-items: center;
+}
+.mini {
+    width: 29%;
+    margin: 10px;
+    padding: 10px;
+}
+.a3 {
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+.a4, .a5 {
+    background-color: #E4A45D;
+}
+.a6 {
+    background-color: #7ED6DF;
+}
+.a7, .a9 {
+    background-color: #FF7979;
+}
+.a8 {
+    background-color: #BADC58;
+}
+.mini1 {
+    margin: auto;
+}
+.button {
+    padding: 15px 25px;
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+}
+.h4 {
+    margin: 10px 0;
+}
+.under {
+    background-image: url(subscribe.png);
+    padding: 80px 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: 20px;
+}
+.input {
+    padding: 10px;
+    width: 40%;
+}
+.btn {
+    color: white;
+    border: none;
+    padding: 10px;
+    background-color: #f00;
+    width: 14%;
+    margin-left: 20px;
+}
+@media(max-width:1140px){
+    .bottom {
+        padding: 0 20px;
+    }
+}
+@media(max-width:900px){
+    .mini {
+        width: 46%;
+    }
+}
+@media(max-width:700px){
+    .mini {
+        width: 100%;
+    }
+    .img {
+        width: 100%;
+    }
+    .input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .btn {
+        width: 22%;
+    }
+}
